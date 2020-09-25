@@ -1,0 +1,47 @@
+#grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-column: 10px;
+    grid-row: 10px;
+
+}
+.main-border{
+    border:2px solid black;
+    
+}
+.Owca{
+    width: 350px;
+    height: 250px;
+
+}
+.Meme{
+    width: 350px;
+    height:250px;
+}
+.Kot{
+    width: 350px;
+    height: 250px;
+}
+img:hover{
+    animation-name: memy ;
+    
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+
+}
+
+@keyframes memy {
+    from{
+        width: 350px;
+        height:150px}
+        to {transform: scale(1.2);        }
+
+    }
+
+
+    
+
+
+
+
+    
